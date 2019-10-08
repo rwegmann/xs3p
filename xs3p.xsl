@@ -2530,6 +2530,7 @@ pre {
            </div>
          </div>
       </xsl:if>
+      <xsl:apply-templates select="child::node()" mode="hiddendoc"/>
    </xsl:template>
 
    <!--
